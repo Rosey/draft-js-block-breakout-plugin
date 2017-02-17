@@ -42,7 +42,9 @@ The options and their defaults are:
 | Option | Type | Description | Default |
 | --- | --- | --- | --- |
 | `breakoutBlockType` | `String` | Block type to insert when breaking out | `'unstyled'`
-| `breakoutBlocks` | `Array` | List of block types to break out from | `['header-one', 'header-two', 'header-three', 'header-four', 'header-five', 'header-six']`
+| `breakoutBlocks` | `Array` | List of block types to break out from | `['header-one', 'header-two', 'header-three', 'header-four',
+'header-five', 'header-six']`
+| `breakoutBlocks` | `Array` | List of block types to that require two consecutive "return" keys to break out from | `['blockquote', 'unordered-list-item', 'ordered-list-item', 'code-block']`
 
 ## Developing
 
